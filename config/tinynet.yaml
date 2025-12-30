@@ -1,0 +1,29 @@
+task: tinynet
+data_dir: /home/xxxx/ADV/data
+num_classes: 200
+image_size: 64
+batch_size: 32
+lr_steps: [75, 90]
+
+teacher_nat_path: ./checkpoints/nat_teacher_checkpoint/tinynet_preres34_nat.pth
+teacher_adv_path: ./checkpoints/adv_teacher_checkpoint/tinynet_preres34_adv.pth
+
+student: resnet18 # mobilenet_v2 resnet18
+
+epsilon: 8
+alpha: 2
+n_steps: 10
+n_steps_eval: 20
+
+gamma: 0.005    # 0.005 0.001 0.0005 0.0003 0.0001
+factor: 1
+wp_iter: 5
+at_iter: 3
+scale: 1        # 1 0.5 0.25 0.1
+
+
+epochs: 100
+gpu: 1
+seed: 0
+workers: 4
+base_lr: 0.1

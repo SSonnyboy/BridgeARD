@@ -1,0 +1,33 @@
+
+======================================================================
+Evaluation Report: cifar100_mobilenet_v2_0.005_5_3_1
+Experiment Path: /mnt/sdb_2_4t/home/chenyu/ADV/AD/outputs/cifar100_mobilenet_v2_0.005_5_3_1
+======================================================================
+
+Evaluation Mode: White-box
+Device: NVIDIA GeForce RTX 3090
+
+
+White-box Attack Evaluation Results:
+----------------------------------------------------------------------
+natural: 0.6411
+pgd_trades: 0.3213
+pgd_standard: 0.3092
+fgsm: 0.3520
+cw_linf: 0.2820
+
+--- WR ---
+pgd_trades_avg: 0.4812
+pgd_standard_avg: 0.4751
+fgsm_avg: 0.4965
+cw_linf_avg: 0.4616
+
+--- NRR ---
+pgd_trades_nrr: 0.4281
+pgd_standard_nrr: 0.4172
+fgsm_nrr: 0.4545
+cw_linf_nrr: 0.3917
+
+======================================================================
+Report generated successfully
+======================================================================

@@ -1,0 +1,33 @@
+
+======================================================================
+Evaluation Report: cifar100_resnet18_0.005_5_3_1
+Experiment Path: /mnt/sdb_2_4t/home/chenyu/ADV/AD/outputs/cifar100_resnet18_0.005_5_3_1
+======================================================================
+
+Evaluation Mode: White-box
+Device: NVIDIA GeForce RTX 3090
+
+
+White-box Attack Evaluation Results:
+----------------------------------------------------------------------
+natural: 0.6401
+pgd_trades: 0.3034
+pgd_standard: 0.2950
+fgsm: 0.3376
+cw_linf: 0.2687
+
+--- WR ---
+pgd_trades_avg: 0.4718
+pgd_standard_avg: 0.4676
+fgsm_avg: 0.4889
+cw_linf_avg: 0.4544
+
+--- NRR ---
+pgd_trades_nrr: 0.4117
+pgd_standard_nrr: 0.4039
+fgsm_nrr: 0.4421
+cw_linf_nrr: 0.3785
+
+======================================================================
+Report generated successfully
+======================================================================
