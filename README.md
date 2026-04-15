@@ -30,6 +30,7 @@ BridgeARD: Bridging the Latent Gap for Dual-Teacher Adversarial Robust Distillat
    ```bash
    sh test.sh
    ```
+
 ## Citation
 
 If you find this work useful for your research, please consider citing our paper:
@@ -38,7 +39,7 @@ If you find this work useful for your research, please consider citing our paper
 @inproceedings{chen2026BridgeARD,
   title={BridgeARD: Bridging the Latent Gap for Dual-Teacher Adversarial Robust Distillation},
   author={Yu Chen, Ke Wang, Fan Yang, Yifan Shuai, Weiming Feng and Caiyi Chen},
-  booktitle={Proceedings of the 2026 IEEE International Conference on Multimedia and Expo},
+  booktitle={Proceedings of the 2026 IEEE International Conference on Multimedia and Expo (ICME)},
   year={2026}
 }
 ```
