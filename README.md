@@ -2,6 +2,8 @@
 
 BridgeARD: Bridging the Latent Gap for Dual-Teacher Adversarial Robust Distillation (ICME'26)
 
+🎉 Our work has been accepted for ICME 2026!
+
 ## Instructions for Reproducing Results
 
 1. **Environment Setup**
